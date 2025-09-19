@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="Images/BlackHole.jpg"> 
 </head>
 <body>
     <table>
@@ -11,74 +13,88 @@
            <td class="menu">
                 <h2>Menu</h2>
            </td>
-           <td class="main">
-                <h1>Syzdykov Meirhan</h1>
-                <h2>2nd counrse</h2>
-                <h3>About Me</h3>
-                <p>My name is Meirhan. At the moment of writing, I am doing Web Technologies Assignment 1.</p>
+           <td>
+                <div class="header">
+                    <h1 id="main-heading">Syzdykov Meirhan</h1>
+                    <h2 class="highlight">2nd counrse</h2>
+                    <h3>About Me</h3>
+                    <p>My name is Meirhan. At the moment of writing, I am doing Web Technologies Assignment 1.</p>
+                </div>
 
-                <h3>My Hobbies:</h3>
-                <ol>
-                    <li>Watching movies</li>
-                    <li>Drawing</li>
-                    <li>Playing videogames</li>
-                    <li>Coding</li>
-                </ol>
-                <h3>My favourite websites:</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/">Youtube</a></li>
-                    <li><a href="https://music.youtube.com/">Youtube Music</a></li>
-                    <li><a href="https://itch.io/">Itch.io</a></li>
-                </ul>
+                <div class="main">
+                    <h3>My Hobbies:</h3>
+                    <ol>
+                        <li>Watching movies</li>
+                        <li>Drawing</li>
+                        <li>Playing videogames</li>
+                        <li>Coding</li>
+                    </ol>
+                    <h3>My favourite websites:</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/">Youtube</a></li>
+                        <li><a href="https://music.youtube.com/">Youtube Music</a></li>
+                        <li><a href="https://itch.io/">Itch.io</a></li>
+                    </ul>
 
-                <img src="Images/BlackHole.jpg" alt="Black Hole" width="200"> 
-                
-                <br>
-                <button>Click Me</button>
-
-                <table>
-                    <tr>
-                        <td>Subject</td>
-                        <td>Day</td>
-                        <td>Time</td>
-                    </tr>
-                    <tr>
-                        <td>Math</td>
-                        <td>Monday</td>
-                        <td>16:00-17:50</td>
-                    </tr>
-                    <tr>
-                        <td>OOP</td>
-                        <td>Tuesday</td>
-                        <td>14:00-15:50</td>
-                    </tr>
-                    <tr>
-                        <td>WEB</td>
-                        <td>Wednesday</td>
-                        <td>14:00-14:50</td>
-                    </tr>
-                    <tr>
-                        <td>WEB</td>
-                        <td>Friday</td>
-                        <td>17:00-18:50</td>
-                    </tr>
-                </table>
-
-                <h3>My mood today:</h3>
-                <p>&#128512; &#128513; &#128516;</p>
-                
-                <form>
-                    <label for="name">Enter name:</label>
-                    <input id="name" type="text" placeholder="name">
+                    <img src="Images/BlackHole.jpg" alt="Black Hole"> 
+                    
                     <br>
-                    <label for="email">Enter email:</label>
-                    <input id="email" type="email" placeholder="email">
-                    <br>
-                    <label for="color">Favourite color:</label>
-                    <input id="color" type="color">
-                    <br>
-                    <input id="submit" type="submit" value="Submit">
-                </form>
+                    <button>Click Me</button>
+
+                    <table>
+                        <tr>
+                            <td>Subject</td>
+                            <td>Day</td>
+                            <td>Time</td>
+                        </tr>
+                        <tr>
+                            <td>Math</td>
+                            <td>Monday</td>
+                            <td>16:00-17:50</td>
+                        </tr>
+                        <tr>
+                            <td>OOP</td>
+                            <td>Tuesday</td>
+                            <td>14:00-15:50</td>
+                        </tr>
+                        <tr>
+                            <td>WEB</td>
+                            <td>Wednesday</td>
+                            <td>14:00-14:50</td>
+                        </tr>
+                        <tr>
+                            <td>WEB</td>
+                            <td>Friday</td>
+                            <td>17:00-18:50</td>
+                        </tr>
+                    </table>
+
+                    <h3>My mood today:</h3>
+                    <p>&#128512; &#128513; &#128516;</p>
+
+                    <div id="el1"></div>
+                    <div id="el2"></div>
+                    <div id="el3"></div>
+
+                    <div id="box1"></div>
+                    <div class="clear"></div>
+                    <div id="box2"></div>
+                </div>
+
+                <div class="footer">
+                    <form>
+                        <label for="name">Enter name:</label>
+                        <input id="name" type="text" placeholder="name">
+                        <br>
+                        <label for="email">Enter email:</label>
+                        <input id="email" type="email" placeholder="email">
+                        <br>
+                        <label for="color">Favourite color:</label>
+                        <input id="color" type="color">
+                        <br>
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                </div>
            </td> 
         </tr>
     </table>
