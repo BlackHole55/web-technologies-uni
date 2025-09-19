@@ -1,0 +1,83 @@
+body {
+    background-color: orange;
+}
+
+p {
+    color: darkslategray;
+}
+
+#main-heading {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+.second-heading {
+    font-family: monospace;
+    margin: 5%;
+}
+
+img {
+    width: 15em;
+}
+
+h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.header {
+    background-color: rgb(189, 109, 17);
+    padding: 10px;
+}
+
+.main {
+    padding: 20%;
+    border: 2px dashed black;
+    margin: 10px 0px 10px 0px;
+}
+
+.footer {
+    background-color: coral;
+    padding: 15px;
+}
+
+#el1 {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    position: static;
+}
+
+#el2 {
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 15px;
+}
+
+#el3 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#box1 {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    float: left;
+}
+
+#box2 {
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
