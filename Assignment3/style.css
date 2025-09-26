@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 5em;
+}
+
+.cards {
+    display: flex;
+    height: auto;
+    gap: 20px;
+    margin: 5em;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: antiquewhite;
+}
